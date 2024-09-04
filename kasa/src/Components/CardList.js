@@ -7,7 +7,7 @@ const CardList = () => {
     <div className='backgroundcard'>
     <div className="card-list">
       {Array(6).fill(0).map((_, index) => (
-        <Card key={index} title={`Titre de la location ${index + 1}`} />
+        <Card key={index} title={`Titre de la location`} />
       ))}
     </div>
     </div>
