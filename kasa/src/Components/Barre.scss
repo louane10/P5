@@ -1,0 +1,22 @@
+.barre {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('/imagedefond.jpg');
+    border-radius: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    
+
+    h1 {
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        justify-content: center;
+        font-size: 48px;
+        font-weight: 700;
+        border: 1px;
+        border-color: black;
+    }
+}
