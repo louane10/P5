@@ -25,14 +25,22 @@ const Logement = () => {
           <img src={logement.cover} alt={logement.title} className="logement-cover" />
   
           <div className="logement-info">
+            <div className='gauche'>
             <div className='logement-titre'>
             <h1>{logement.title}</h1>
             <p>{logement.location}</p>
             </div>
+            
+            <div className="tags">
+              {logement.tags.map(tag => (
+                <span key={tag} className="tag">{tag}</span>
+              ))}
+            </div>
+            </div>
   
             <div className="host-rating">
               <div className="host">
-                <span>{logement.host.name}</span>
+                <span>{logement.host.name.split(' ')[0]}<br />{logement.host.name?.split(' ')[1]}</span>
                 <img src={logement.host.picture} alt={logement.host.name} className="host-picture" />
               </div>
   
@@ -42,12 +50,10 @@ const Logement = () => {
                 ))}
               </div>
             </div>
+        </div>
+            
   
-            <div className="tags">
-              {logement.tags.map(tag => (
-                <span key={tag} className="tag">{tag}</span>
-              ))}
-            </div>
+            
   
             <div className="dropdowns">
               <details>
@@ -64,7 +70,6 @@ const Logement = () => {
                 </ul>
               </details>
             </div>
-          </div>
         </div>
   
         <Footer />

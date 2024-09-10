@@ -20,6 +20,13 @@
   .logement-info {
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .gauche {
+        display: flex;
+        flex-direction: column;
+    }
   }
 
   .logement-titre {
@@ -29,10 +36,13 @@
     h1 {
         font-size:xx-large;
         color: #ff6060;
+        margin: 0;
     }
 
     p {
-        font-size: x-large;
+        font-size: larger;
+        margin: 0;
+        margin-bottom: 20px;
     }
   }
   
@@ -48,7 +58,7 @@
 
     span {
         color:#ff6060;
-        font-size: x-large;
+        font-size: larger;
     }
   }
   
@@ -62,7 +72,8 @@
   
   .rating {
     display: flex;
-    font-size: 50px;
+    font-size: 35px;
+    margin-top: 15px;
   }
   
   .filled-star {
@@ -90,6 +101,7 @@
     .dropdowns {
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
   .dropdowns details {
@@ -113,6 +125,7 @@
     background-color: #f7f7f7;
     border-radius: 5px;
     text-decoration: none;
+    list-style-type:none;
   }
   
   
