@@ -1,21 +1,16 @@
 .backgroundcard {
-    background-color: #F6F6F6;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    margin-top: 40px;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 20px;
+  padding-left: 25px;
+  align-items: center;
+
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
-    padding-left: 25px;
-    align-items: center;
-
-    .card-list {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 20px;
-     padding: 20px;
-     }
-
+  }
 }
-
-
-
-  
