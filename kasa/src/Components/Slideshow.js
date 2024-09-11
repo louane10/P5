@@ -29,11 +29,6 @@ const Slideshow = ({ pictures }) => {
         </>
       )}
       <img src={pictures[currentIndex]} alt="logement" className="slideshow-img" />
-      {pictures.length > 1 && (
-        <div className="slideshow-index">
-          {currentIndex + 1}/{pictures.length}
-        </div>
-      )}
     </div>
   );
 };

@@ -1,22 +1,23 @@
 .slideshow {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 2500px;
     margin: 0 auto;
     overflow: hidden;
   
     .slideshow-img {
       width: 100%;
       height: auto;
-      display: block;
-      border-radius: 10px;
+      max-height: 600px;
+      object-fit:cover;
+      margin-bottom: 20px;
+      border-radius: 25px;
     }
   
     .slideshow-arrow {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background-color: rgba(0, 0, 0, 0.5);
       color: white;
       font-size: 24px;
       border: none;
@@ -32,17 +33,6 @@
       &.right {
         right: 10px;
       }
-    }
-  
-    .slideshow-index {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 16px;
     }
   }
   
