@@ -33,3 +33,25 @@
     overflow: hidden;
   }
 }
+
+@media screen and (max-width: 844px) {
+    .barre {
+      height: 20px;
+      padding: 50px 0;
+      border-radius: 20px;
+
+      h1 {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 15px;
+      }
+
+      &::before {
+        height: 120px;
+        width: 370px;
+        border-radius: 20px;
+      }
+
+
+    }
+}
