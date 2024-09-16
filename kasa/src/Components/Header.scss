@@ -21,3 +21,20 @@ header {
     font-family: "Montserrat", sans-serif;
   }
 }
+
+@media screen and (max-width: 844px) {
+    header {
+      padding: 0;
+      padding-top: 15px;
+
+      .logo-header {
+        font-size: 14px;
+        width: 150px;
+      }
+
+      nav a {
+        margin-left: 40px;
+        font-size: 15px;
+      }
+    }
+}
