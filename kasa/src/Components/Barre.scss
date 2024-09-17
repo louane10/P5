@@ -50,8 +50,10 @@
 
       &::before {
         height: 120px;
-        width: 370px;
+        width: calc(100% - 30px);
         border-radius: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
       }
 
 

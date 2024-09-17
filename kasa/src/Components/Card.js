@@ -12,7 +12,6 @@ const Card = ({ id, title, cover }) => {
         <img src={cover} alt={title} />
 
         {/* Lien vers la page de détail */}
-        <Link to={`/logement/${id}`}>Voir plus</Link>
       </div>
     </Link>
   );

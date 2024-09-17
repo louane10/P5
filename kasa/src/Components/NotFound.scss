@@ -2,6 +2,7 @@
     padding-right: 80px;
     padding-left: 80px;
     text-align: center;
+    padding-bottom: 100px;
   }
   .errorCode {
     font-size: 300px;
@@ -22,8 +23,9 @@
 
   @media screen and (max-width: 844px) {
     .container {
-      padding: 15px;
-      padding-bottom: 0;
+      padding-top: 0;
+      padding: 0 15px;
+      padding-bottom: 70px;
 
       .errorCode {
         font-size: 100px;

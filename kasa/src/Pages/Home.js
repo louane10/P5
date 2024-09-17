@@ -7,11 +7,14 @@ import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
+        <div>
         <div className='body'>
             <Header />
             <Barre />
             <CardList />
-            <Footer />
+            
+        </div>
+        <Footer />
         </div>
     );
 };

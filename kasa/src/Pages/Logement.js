@@ -20,6 +20,7 @@ const Logement = () => {
   if (!logement) return <div>Loading...</div>; 
 
   return (
+    <div>
     <div className="logement-page">
       <Header />
       <div className="logement-container">
@@ -86,7 +87,9 @@ const Logement = () => {
         </div>
       </div>
 
-      <Footer />
+      
+    </div>
+    <Footer />
     </div>
   );
 };

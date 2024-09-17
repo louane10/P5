@@ -25,6 +25,8 @@
       cursor: pointer;
       border-radius: 50%;
       z-index: 10;
+      font-size: 100px;
+      background-color: transparent;
   
       &.left {
         left: 10px;
@@ -36,3 +38,10 @@
     }
   }
   
+  @media screen and (max-width: 844px) {
+    .slideshow {
+      .slideshow-arrow {
+        font-size: 30px;
+      }
+    }
+  }

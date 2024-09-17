@@ -12,7 +12,7 @@ const Menu = ({ title, content }) => {
     <div className="menu">
       <div className="menu-header" onClick={toggleMenu}>
         <h3>{title}</h3>
-        <div className={`menu-arrow ${isOpen ? "open" : ""}`}>➤</div>
+        <div className={`menu-arrow ${isOpen ? "open" : ""}`}><i className="fa-solid fa-chevron-up"></i></div>
       </div>
       <div className={`menu-content ${isOpen ? "open" : ""}`}>{content}</div>
     </div>

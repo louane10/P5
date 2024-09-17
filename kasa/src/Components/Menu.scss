@@ -1,5 +1,16 @@
 .menu {
-  margin: 30px 0 30px 130px;
+  margin: 30px 0 30px 100px;
+  width: 83%;
+}
+
+.dropdowns {
+.menu {
+  width: 45%;
+
+}
+.menu-content {
+  width: 97%;
+  }
 }
 
 .menu-header {
@@ -11,7 +22,7 @@
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  width: 1140px;
+  width: 100%;
   height: 50px;
 
   h3 {
@@ -23,11 +34,12 @@
 
 .menu-arrow {
   transition: transform 0.3s ease;
-  margin-right: 10px;
+  margin-right: 5px;
+  font-size: 30px;
 }
 
 .menu-arrow.open {
-  transform: rotate(90deg);
+  transform: rotate(-180deg);
 }
 
 .menu-content {
@@ -38,11 +50,52 @@
   color: #333;
   padding: 0 10px;
   border-radius: 0 0 5px 5px;
-  width: 1120px;
+  width: 98.5%;
   font-size: larger;
 }
 
 .menu-content.open {
   max-height: 100px;
   padding: 20px;
+}
+
+@media screen and (max-width: 844px) {
+
+  .menu {
+    margin-left: 0;
+    width: 95%;
+
+    .menu-header {
+      height: 40px;
+      h3 {
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+    .menu-content {
+      font-size: 15px;
+      width: 96%;
+    }
+  }
+
+  .dropdowns {
+    flex-direction: column;
+    .menu {
+      margin-bottom: 0;
+      margin-top: 30px;
+      margin-left: 0;
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .menu-header {
+      height: 30px;
+      min-width: 345px;
+    }
+    .menu-content {
+      font-size: 15px;
+      width: 195%;
+    }
+  }
 }

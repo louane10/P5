@@ -6,6 +6,7 @@ import Header from "./Header";
 
 function NotFound() {
   return (
+    <div>
     <div className="container">
       <Header />
       <h1 className="errorCode">404</h1>
@@ -13,7 +14,9 @@ function NotFound() {
       <Link to="/" className="link">
         Retourner sur la page d'accueil
       </Link>
-      <Footer />
+      
+    </div>
+    <Footer />
     </div>
   );
 }
