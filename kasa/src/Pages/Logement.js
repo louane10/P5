@@ -7,6 +7,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Menu from "../Components/Menu";
 import Slideshow from "../Components/Slideshow";
+import NotFound from "../Components/NotFound";
 
 const Logement = () => {
   const { id } = useParams(); 
@@ -17,7 +18,7 @@ const Logement = () => {
     setLogement(selectedLogement);
   }, [id]);
 
-  if (!logement) return <div>Loading...</div>; 
+  if (!logement) return <NotFound />; 
 
   return (
     <div>

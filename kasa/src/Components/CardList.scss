@@ -15,6 +15,13 @@
   }
 }
 
+@media screen and (max-width: 1200px) and (min-width: 844px) {
+  .card-list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+}
+
 @media screen and (max-width: 844px) {
 
   .backgroundcard {
