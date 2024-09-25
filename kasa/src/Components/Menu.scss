@@ -3,14 +3,13 @@
   width: 83%;
 }
 
-
 .dropdowns {
-.menu {
-  width: 45%;
-  margin-left: 0;
-}
-.menu-content {
-  width: 97%;
+  .menu {
+    width: 45%;
+    margin-left: 0;
+  }
+  .menu-content {
+    width: 97%;
   }
 }
 
@@ -61,7 +60,6 @@
 }
 
 @media screen and (max-width: 844px) {
-
   .menu {
     margin-left: 0;
     width: 95%;
@@ -92,7 +90,7 @@
     }
     .menu-header {
       height: 30px;
-      min-width: 345px;
+      min-width: 290px;
     }
     .menu-content {
       font-size: 15px;

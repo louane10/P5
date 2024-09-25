@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './Slideshow.scss';
+import React, { useState } from "react";
+import "./Slideshow.scss";
 
 const Slideshow = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +28,11 @@ const Slideshow = ({ pictures }) => {
           </button>
         </>
       )}
-      <img src={pictures[currentIndex]} alt="logement" className="slideshow-img" />
+      <img
+        src={pictures[currentIndex]}
+        alt="logement"
+        className="slideshow-img"
+      />
     </div>
   );
 };
