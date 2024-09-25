@@ -1,11 +1,10 @@
 .card {
   background-color: #ff6060;
   color: white;
-  text-align: center;
   border-radius: 8px;
   margin: 15px;
   text-align: left;
-  width: 340px;
+  position: relative;
   height: 340px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -24,7 +23,7 @@
     margin: 0;
     font-weight: 500;
     position: absolute;
-    width: 340px;
+    width: 90%;
     margin: 10px;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   }
